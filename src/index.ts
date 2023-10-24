@@ -7,3 +7,11 @@ window.Webflow.push(() => {
 });
 
 var test = document.eventListener();
+
+
+const trigger = document.document.getElementById('cta');
+
+trigger.addEventListener('click', function() {
+    const popup = document.getElementById('testpopup');
+    popup.style.display = 'flex'; // Display the pop-up
+});
